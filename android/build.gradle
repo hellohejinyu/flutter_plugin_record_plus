@@ -28,6 +28,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'record.wilson.flutter.com.flutter_plugin_record'
     compileSdkVersion 29
 
     sourceSets {
